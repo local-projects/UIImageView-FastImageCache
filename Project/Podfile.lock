@@ -1,0 +1,17 @@
+PODS:
+  - FastImageCache (1.2)
+  - UIImageView-FastImageCache (0.1.0):
+    - FastImageCache (~> 1.2)
+
+DEPENDENCIES:
+  - UIImageView-FastImageCache (from `../UIImageView-FastImageCache.podspec`)
+
+EXTERNAL SOURCES:
+  UIImageView-FastImageCache:
+    :path: ../UIImageView-FastImageCache.podspec
+
+SPEC CHECKSUMS:
+  FastImageCache: 3e0a72dd96394bb36759dab9764b219934fa7ea4
+  UIImageView-FastImageCache: 5ce1a763040f1e82204901bf2ba668ad4939e67a
+
+COCOAPODS: 0.29.0

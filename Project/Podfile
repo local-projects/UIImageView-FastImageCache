@@ -1,0 +1,1 @@
+pod "UIImageView-FastImageCache", :path => "../UIImageView-FastImageCache.podspec"
