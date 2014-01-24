@@ -19,8 +19,9 @@
 
 - (void)setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder
 {
+    __weak UIImageView *theImageView = self;
     [self setImageWithURL:url placeholderImage:placeholder completed:^(UIImage *image) {
-        self.image = image;
+        theImageView.image = image;
     }];
 }
 

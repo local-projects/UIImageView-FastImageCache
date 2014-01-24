@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		10D427F2C0CE44E5A5A4855D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		1DE3E5F14AD344149CEACD03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9810E8021891F68600AD8A60 /* UIImageViewFICDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageViewFICDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9810E8021891F68600AD8A60 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9810E8051891F68600AD8A60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9810E8071891F68600AD8A60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9810E8091891F68600AD8A60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -93,7 +93,7 @@
 		9810E8031891F68600AD8A60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9810E8021891F68600AD8A60 /* UIImageViewFICDemo.app */,
+				9810E8021891F68600AD8A60 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			);
 			name = Demo;
 			productName = UIImageViewFICDemo;
-			productReference = 9810E8021891F68600AD8A60 /* UIImageViewFICDemo.app */;
+			productReference = 9810E8021891F68600AD8A60 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

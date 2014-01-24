@@ -57,7 +57,7 @@
         
         NSInteger photosCount = [_avatarUrls count];
         for (int i=0; i<photosCount; i++){
-            __block UIImageView *avatarView = [_avatarImageViews objectAtIndex:i];
+            __weak UIImageView *avatarView = [_avatarImageViews objectAtIndex:i];
             NSString *url = [avatarUrls objectAtIndex:i];
             [avatarView setImageWithURL:[NSURL URLWithString:url] completed:^(UIImage *image) {
                 if (avatarUrls == [self avatarUrls]){
