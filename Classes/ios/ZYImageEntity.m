@@ -108,11 +108,12 @@ static UIImage * _FICDSquareImageFromImage(UIImage *image) {
         CGContextClearRect(contextRef, contextBounds);
         UIImage *squareImage = _FICDSquareImageFromImage(image);
         
+        // Skip the rounding...
         // Clip to a rounded rect
-        CGPathRef path = _FICDCreateRoundedRectPath(contextBounds, 12);
-        CGContextAddPath(contextRef, path);
-        CFRelease(path);
-        CGContextEOClip(contextRef);
+        //CGPathRef path = _FICDCreateRoundedRectPath(contextBounds, 12);
+        //CGContextAddPath(contextRef, path);
+        //CFRelease(path);
+        //CGContextEOClip(contextRef);
         
         UIGraphicsPushContext(contextRef);
         [squareImage drawInRect:contextBounds];
