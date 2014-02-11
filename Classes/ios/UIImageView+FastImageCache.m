@@ -38,7 +38,7 @@
     if (!isReady){
         self.image = placeholder;
     }else{
-        NSLog(@"[Cache Hit] ---> FIC : %@", [[ZYImageEntity imageEntityWithURL:url] UUID]);
+        //NSLog(@"[Cache Hit] ---> FIC : %@", [[ZYImageEntity imageEntityWithURL:url] UUID]);
     }
 }
 

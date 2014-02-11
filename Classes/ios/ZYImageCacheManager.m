@@ -70,11 +70,11 @@
         // load from disk
         UIImage *srcImage  = [UIImage imageWithContentsOfFile:[theEntity localPath]];
         completionBlock(srcImage);
-        NSLog(@"[Cache Hit] ===> Disk: %@",[theEntity localPath]);
+        //NSLog(@"[Cache Hit] ===> Disk: %@",[theEntity localPath]);
         
     }else{
         // download from network
-        NSLog(@"VVVV NO Cache: download now ... %@",[[theEntity srcURL] absoluteString]);
+        //NSLog(@"VVVV NO Cache: download now ... %@",[[theEntity srcURL] absoluteString]);
         [downloader downloadImageEntity:theEntity completeBlocks:^(UIImage *dlImage) {
             completionBlock(dlImage);
             [downloadingEntity removeObject:theEntity];

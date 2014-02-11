@@ -68,7 +68,7 @@
     };
     
     [self.downloadQueue addOperation:downloadOperation];
-    NSLog(@"%@ %d",self.downloadQueue.name, self.downloadQueue.operationCount);
+    //NSLog(@"%@ %d",self.downloadQueue.name, self.downloadQueue.operationCount);
 }
 
 - (void)cancelDownloadImageEntity:(ZYImageEntity *)entity
